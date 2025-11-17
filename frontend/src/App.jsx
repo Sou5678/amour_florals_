@@ -11,6 +11,7 @@ import CartPage from './components/CartPage'
 import ProfilePage from './components/ProfilePage'
 import LoginPage from './components/LoginPage'
 import SignUpPage from './components/SignUpPage'
+import Home from './components/Home'; 
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
