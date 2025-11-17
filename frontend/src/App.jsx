@@ -11,13 +11,14 @@ import CartPage from './components/CartPage'
 import ProfilePage from './components/ProfilePage'
 import LoginPage from './components/LoginPage'
 import SignUpPage from './components/SignUpPage'
-import Home from './components/Home'; 
+// import Home from './components/Home'; 
+import Contact from './components/Contact';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Nav /> {/* Nav har page par dikhega */}
+        <Nav /> 
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collections" element={<CollectionsPage />} />
